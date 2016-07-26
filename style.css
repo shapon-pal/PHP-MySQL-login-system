@@ -1,0 +1,53 @@
+.body {
+    margin: 0 auto;
+    width: 600px;
+    border: 1px solid #333;
+}
+section {
+    padding: 13px;
+    text-align: center;
+}
+ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 7px;
+    border: 1px solid #666;
+}
+ul li a {
+    text-decoration: none;
+}
+table{
+	margin: 0 auto;
+    width: 80%;
+}
+.header, .footer {
+    background: #333;
+    color: #fff;
+}
+.user, .registration{
+    background: rgba(217, 224, 203, 0.7);
+}
+section.menu {
+    border-bottom: 1px solid #734637;
+    background: rgba(36, 160, 155, 0.65);
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 2px;
+    border: 1px solid #d64782;
+}
+.uname,{
+    width: 90%;
+    margin: 0 auto;
+    background: rgba(185, 116, 65, 0.75);
+    padding: 2px;
+    color: #284423;
+}
+.error{
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(134, 213, 23, 0.75);
+    padding: 2px;
+    color: red;
+    text-align: center;
+}
